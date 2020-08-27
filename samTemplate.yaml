@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: canary.canary_handler
       Runtime: python3.6
-      CodeUri: ./LambdaCode
+      CodeUri: .
       Description: 'Lambda function for CD Demo'
       MemorySize: 128
       Timeout: 30
